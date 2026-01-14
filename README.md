@@ -47,16 +47,6 @@ cl1_core/
 
 ## 配置说明
 
-### globalConfig
-
-控制全局编译模式，三者必须有且仅有一个为 `true`：
-
-| 配置项 | 描述 |
-|--------|------|
-| `syn` | 综合模式 |
-| `simpleSocTest` | 简单 SoC 测试模式 |
-| `fullSocTest` | 完整 SoC 测试模式 |
-
 ### Cl1Config
 
 | 配置项 | 默认值 | 描述 |
