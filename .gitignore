@@ -1,0 +1,37 @@
+# Mill build output
+out/
+
+# Scala build cache
+.scala-build/
+.bloop/
+.bsp/
+
+# Metals (Scala LSP)
+.metals/
+metals.sbt
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+
+vsrc/
+
+patch/*
+!patch/update-firtool.sh
+
+# Waveform files
+wave/
+*.vcd
+*.fst
+*.fsdb
+
+# Compiled files
+*.class
+*.jar
+*.tasty
+
+# Logs
+*.log
+
